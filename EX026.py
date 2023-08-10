@@ -1,0 +1,7 @@
+frase = str(input('Digite uma frase: '))
+qtdA = frase.upper().count('A')
+prm = frase.upper().find('A')
+ult = frase.upper().rfind('A')
+print('Número de "A": {}'.format(qtdA))
+print('Primeiro "A": {}'.format(prm))
+print('Ultimo "A": {}'.format(ult))
