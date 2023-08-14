@@ -6,7 +6,7 @@ from emoji import emojize
 #:smiling_face_with_sunglasses:
 #:chicken:
 import pygame
-import sys
+
 pygame.init()
 pygame.mixer.music.load('8 Bit Menu.mp3')
 pygame.mixer_music.play()
